@@ -1,0 +1,16 @@
+{
+  "name": "fo-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "thanh.pham",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.7.0",
+    "cypress-ntlm-auth": "^4.0.4"
+  },
+  "cypress-ntlm": "npm run ntlm-proxy && (cypress-ntlm open & ntlm-proxy-exit)"
+}
